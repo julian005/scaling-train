@@ -58,7 +58,6 @@ async function startBrowser() {
     pageTitle = await page.title();
     console.log(pageTitle);
     console.log(`Started discord bot on server ${botId}`);
-    await page.screenshot({ path: 'screenshot.png' });
 
     startTime = new Date();
 
