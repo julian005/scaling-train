@@ -1,0 +1,11 @@
+# Exported from Render on 2024-07-27T12:08:13Z
+services:
+- type: web
+  name: love-repo
+  runtime: docker
+  repo: https://github.com/WackyDawg/mine-repo
+  plan: free
+  region: oregon
+  dockerContext: .
+  dockerfilePath: ./Dockerfile
+version: "1"
